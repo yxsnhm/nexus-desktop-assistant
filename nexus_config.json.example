@@ -1,0 +1,40 @@
+{
+  "windows": {
+    "千问": {
+      "keyword": "千问",
+      "type": "",
+      "x": 0,
+      "y": 0
+    }
+  },
+  "coords": {
+    "千问": {
+      "x": 0,
+      "y": 0,
+      "rx": 0,
+      "ry": 0,
+      "copy_rx": 0,
+      "copy_ry": 0,
+      "rw": 800,
+      "rh": 500
+    }
+  },
+  "settings": {
+    "screenshot_interval": 3,
+    "stable_wait": 3,
+    "idle_timeout": 10,
+    "qianwen_threshold": 0.55,
+    "zhipu_threshold": 0.48,
+    "coze_threshold": 0.50,
+    "scroll_count": 10,
+    "scroll_amount": 500,
+    "click_max": 2,
+    "screenshot_wait": 2,
+    "fullselect_stable_count": 2,
+    "screenshot_stable_count": 2,
+    "fullselect_interval": 3,
+    "mobile_port": 5000,
+    "window_name_map": {},
+    "schedule_checks": {}
+  }
+}
