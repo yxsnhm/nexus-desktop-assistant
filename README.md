@@ -55,4 +55,15 @@ app = NexusTool.start_as_module(callback=my_callback)
 联系方式：发送邮件至 1322820339@qq.com
 如有问题或建议，欢迎提交 Issue
 app.log("来自主程序的消息")
+## 注意事项
+- 请勿将 `nexus_config.json`、`users.db`、`.env` 等包含敏感信息的文件上传到公开仓库。
+- 建议在项目根目录创建 `.gitignore` 文件，内容如下：
+nexus_config.json
+users.db
+.env
+pycache/
+build/
+dist/
+*.spec
 
+text
